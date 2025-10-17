@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gaia-framework"
+version = "0.1.0"
+description = "GAIA Framework for orchestrating security modules"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "TheWinterShadow", email = "your_email@example.com" }
+]
+license = { file = "LICENSE" }
+keywords = ["security", "framework", "cli"]
+dependencies = [
+    "click>=8.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+gaia = "gaia_framework.cli:main"
+
+[tool.hatch.version]
+path = "gaia_framework/__init__.py"
+
+[tool.hatch.build.targets.wheel]
