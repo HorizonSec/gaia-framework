@@ -5,10 +5,11 @@ The GAIA Framework is part of the Horizon Security Framework. It is designed to 
 ## Features
 - Modular architecture
 - CLI-based interactions
-- Shared utilities for logging and SARIF standardization
+- Shared utilities from horizon-core for logging and SARIF standardization
 
 ## Requirements
 - Python 3.9+
+- horizon-core (automatically installed)
 
 ## Installation
 ```bash

@@ -16,6 +16,7 @@ keywords = ["security", "framework", "cli"]
 dependencies = [
     "click>=8.0",
     "pyyaml>=6.0",
+    "horizon-core @ git+https://github.com/HorizonSec/horizon-core.git@mainline",
 ]
 
 [project.scripts]
